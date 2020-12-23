@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@700&family=Roboto&display=swap');
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background: url("../images/XsaucedBackground.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    &__copy {
+        width: 45vw;
+        height: 100vh;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;
+        padding: 0 2em 0 4em;
+        opacity: 90%;
+        backdrop-filter: blur(5px);
+
+        &__title {
+            order: 2;
+            font-size: 3em;
+            font-family: 'Chivo', sans-serif;
+        }
+
+        &__text {
+            order: 3;
+            font-size: 1.1em;
+            max-width: 20em;
+            margin-bottom: 2.5em;
+        }
+
+        &__btn {
+            order: 4;
+            position: relative;
+            padding: 1.5em 2em;
+            background-color: #2EC4B6;
+            border-radius: 6px;
+            margin-right: 5em;
+            text-align: center;
+            
+            a {
+                color: white;
+                text-decoration: none;
+            }
+            
+        }
+
+        img {
+            order: 1;
+            width: 10em;
+        }
+    }
+}
