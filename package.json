@@ -16,6 +16,7 @@
   },
   "license": "0BSD",
   "dependencies": {
+    "@typeform/embed": "^0.31.1",
     "gatsby": "^2.26.1",
     "gatsby-plugin-sass": "^2.8.0",
     "node-sass": "^5.0.0",
