@@ -1,5 +1,5 @@
 import * as React from "react"
-import "../styles/hero.scss"
+import "../styles/main.scss"
 import Hero from '../components/Hero'
 
 // markup

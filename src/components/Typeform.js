@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import * as typeformEmbed from '@typeform/embed'
 
+
 const Typeform = () => {
     const typeformRef = useRef(null)
     
@@ -13,7 +14,7 @@ const Typeform = () => {
         opacity: 50,
       })
       typeformRef.current.addEventListener('click', function() {popup.open()})
-    }, [typeformRef])
+    }, [])
   
     return <a ref={typeformRef} id="typeform">Join Waitlist</a>
   }
