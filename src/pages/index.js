@@ -1,13 +1,15 @@
 import * as React from "react"
 import "../styles/main.scss"
-import Hero from '../components/Hero'
+import Header from "../components/Header"
+import Hero from "../components/Hero"
 
 // markup
 const IndexPage = () => {
   return (
     <main >
     <title>Home Page</title>
-      <Hero />
+    <Header />
+    <Hero />
     </main>
   )
 }

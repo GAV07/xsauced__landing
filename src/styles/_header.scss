@@ -1,0 +1,56 @@
+header {
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 2em 1em 2em;
+    background-color: transparent;
+    position: absolute;
+    z-index: 2;
+    
+
+    @include respond(phone) {
+        padding: 1em 1em;    
+    }
+
+
+    .logo {
+        width: 10em;
+        justify-self: flex-start;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+
+        a {
+            text-decoration: none;
+            padding-right: 1em;
+            color: white;
+        }
+
+        a:hover {
+            font-weight: 700;
+        }
+    }
+
+    .MuiButton-root {
+        font-size: 1.5rem;
+    }
+    
+}
+
+.MuiDrawer-root {
+    
+    .gatsby-image-wrapper {
+        width: 10em;
+        margin: 1em 0 10em 2em;
+    }
+    a {
+        font-weight: 700;
+        padding: 0 1em 0 1em;
+    }
+}
+

@@ -1,0 +1,68 @@
+
+.about {
+    padding: 10em;
+    background-color: black;
+    color: white;
+
+    h1 {
+        font-size: 4em;
+    }
+
+    h2 {
+        margin-top: 2em;
+    }
+
+    @include respond(phone) {
+        padding: 4em 2em 2em 2em;
+
+        h1 {
+            font-size: 2em;
+        }
+
+        h2 {
+            font-size: 1.5em;
+        }
+    }
+
+}
+
+.wave {
+    position: absolute;
+    z-index: 0;
+
+    @include respond(phone) {
+        height: 30vh;
+    }
+}
+
+.story {
+    height: 100vh;
+    margin-bottom: 6em;
+
+    p {
+        font-size: 1.2em;
+    }
+}
+
+.faq {
+    margin-bottom: 6em;
+
+    svg {
+        fill: white;
+    }
+}
+
+
+
+.conduct {
+    &__list {
+        display: flex;
+
+        svg {
+            fill: white;
+            width: 2em;
+            height: 2em;
+            margin-right: 1em;
+        }
+    }
+}

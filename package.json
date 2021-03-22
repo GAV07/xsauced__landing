@@ -16,12 +16,14 @@
   },
   "license": "0BSD",
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
     "@typeform/embed": "^0.31.1",
     "gatsby": "^2.26.1",
     "gatsby-plugin-sass": "^2.8.0",
     "node-sass": "^5.0.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-icons": "^4.2.0"
   },
   "devDependencies": {
     "sass": "^1.30.0"
